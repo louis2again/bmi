@@ -179,13 +179,12 @@ class _InputPageState extends State<InputPage> {
                               width: 10.0,
                             ),
                             RoundIconButton(
-                              icon: FontAwesomeIcons.plus,
-                              onPressed: () {
-                                setState(() {
-                                  weight++;
-                                });
-                              },
-                            ),
+                                icon: FontAwesomeIcons.plus,
+                                onPressed: () {
+                                  setState(() {
+                                    weight++;
+                                  });
+                                },),
                           ],
                         ),
                       ],
